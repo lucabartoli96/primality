@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: arial, sans-serif;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+    height: 15%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+input[name=number] {
+    position: absolute;
+    border-style: none;
+    top: 4%;
+    height: 7%;
+    left: 5%;
+    width: 25%;
+    font-size: 16pt;
+}
+
+input[name=test] {
+    position: absolute;
+    width: 7%;
+    top: 0.5%;
+    left: 32%;
+    padding-top: 100%;
+    border-style: none;
+    background: url(number.png) no-repeat top left;
+    background-size: 100%;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #f79951;
+    font-size: 16pt;
+}
+
+ul li:nth-child(even) {
+    left: 1%;
+}
+
+.number_group {
+    width: 95%;
+}
+
+.number_group span {
+    margin-left: 1%;
+}
+
+.number_group span:hover {
+    margin-left: 1%;
+    color: #7eacf7;
+    cursor: pointer;
+}
+
+#factorization {
+    position: relative;
+}
